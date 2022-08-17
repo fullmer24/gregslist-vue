@@ -5,23 +5,23 @@
             <div class="col-4">
                 <label class="form-label" for="style">Style</label>
                 <input class="form-control" type="text" minlength="3" maxlength="30" id="style" name="style"
-                    v-model="editable.make">
+                    v-model="editable.style">
             </div>
             <div class="col-4">
                 <label class="form-label" for="bdrm">Bedroom</label>
-                <input class="form-control" type="number" id="bdrm" name="bdrm" v-model="editable.make">
+                <input class="form-control" type="number" id="bdrm" name="bdrm" v-model="editable.bdrm">
             </div>
             <div class="col-4">
                 <label class="form-label" for="bath">Bath</label>
-                <input class="form-control" type="number" id="bath" name="bath" v-model="editable.make">
+                <input class="form-control" type="number" id="bath" name="bath" v-model="editable.bath">
             </div>
             <div class="col-4">
                 <label class="form-label" for="price">Price</label>
-                <input class="form-control" type="number" min="1" id="price" name="price" v-model="editable.make">
+                <input class="form-control" type="number" min="1" id="price" name="price" v-model="editable.price">
             </div>
             <div class="col-8">
                 <label class="form-label" for="img">Image</label>
-                <input class="form-control" type="text" id="img" name="img" v-model="editable.make">
+                <input class="form-control" type="text" id="img" name="img" v-model="editable.img">
             </div>
             <div class="col-12">
                 <label class="form-label" for="description">Description</label>

@@ -7,9 +7,9 @@
         </router-link>
 
         <!-- TODO move this -->
-        <div class="p-3">
+        <!-- <div class="p-3">
             <div class="bg-white elevation-2">
-                <img class="img-fluid" src="{{house.img}}" alt="">
+                <img class="img-fluid" :src="house.img" alt="">
                 <div class="p-2">
                     <h4 class="text-center">{{ house.style }} | {{ house.bdrm }} | {{ house.bath }}</h4>
                     <p>{{ house.description }}</p>
@@ -20,7 +20,7 @@
                     <button class="btn btn-danger" @click="deleteHouse(house)">delete me</button>
                 </div>
             </div>
-        </div>
+        </div> -->
 
     </div>
 </template>
