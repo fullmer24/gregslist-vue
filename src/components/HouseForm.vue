@@ -40,9 +40,6 @@ import { housesService } from '../services/HousesService.js';
 import { logger } from '../utils/Logger.js';
 import Pop from '../utils/Pop.js';
 
-
-
-
 export default {
     setup() {
         const editable = ref({})
@@ -69,11 +66,6 @@ export default {
     },
 };
 </script>
-    
-
-
-
-
 
 <style lang="scss" scoped>
 </style>
