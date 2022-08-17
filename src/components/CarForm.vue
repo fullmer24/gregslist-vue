@@ -15,7 +15,7 @@
 
       <div class="col-4">
         <label class="form-label" for="year">Year</label>
-        <input class="form-control" type="number" id="year" name="year" min="1999" v-model="editable.year">
+        <input class="form-control" type="number" id="year" name="year" min="1950" v-model="editable.year">
       </div>
 
       <label class="form-label" for="price">Price</label>
